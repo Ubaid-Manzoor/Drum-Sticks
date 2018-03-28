@@ -1,0 +1,32 @@
+body,html{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url('Background.jpg');
+}
+.key{
+	display: inline-block;
+	color: #8a7070;
+	margin-top: 5px; 
+	margin-right: 5px;
+	width: 120px;
+	height: 80px;
+	padding-top: 30px;
+	font-size: 20px;
+	border-radius: 10px;
+	border: 3px solid #628798;
+	transition: all 0.2s ease-in-out;
+}
+.AllKeys{
+	position: relative;
+	top: 100px;
+	text-align: center;
+}
+.playing{
+	text-shadow: 2px 2px 5px yellow;
+	transform: scale(1.2);
+	border-radius: 15px;
+	box-shadow: 0px 3px 50px yellow;
+	border-color: yellow;
+}
